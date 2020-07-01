@@ -474,6 +474,22 @@ td {
     margin: 5px 15px;
 }
 
+/*插件页面*/
+#filter-container {
+    margin-left: 0 !important;
+}
+
+.plugin-manager__icon-leading {
+    padding: 5px !important;
+}
+
+a.yui-button.primary {
+    color: #fff !important;
+}
+
+
+
+
 /*底部*/
 footer {
     display: none;
