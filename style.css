@@ -1,0 +1,480 @@
+* {
+    font-size: 12px !important;
+    letter-spacing: 1px;
+    font-weight: normal !important;
+    border-radius: 0 !important;
+    color: #333333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+a {
+    color: #333333 !important;
+    text-decoration: none !important;
+}
+
+a:link {
+    text-decoration: none !important;
+    color: #333333 !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+    color: #333333 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #009688 !important;
+}
+
+a:active {
+    text-decoration: none !important;
+    color: #333333 !important;
+}
+
+a:focus {
+    text-decoration: none !important;
+    color: #333333 !important;
+}
+
+/*---------------------------------------------------------*/
+/*标题栏*/
+/*---------------------------------------------------------*/
+/*整体高度和位置*/
+.page-header {
+    position: fixed;
+    height: 50px;
+    line-height: 50px;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+/*logo*/
+#header .logo {
+    width: 300px !important;
+    background-color: #20222A;
+    margin-left: 0;
+    padding: 0 15px;
+}
+
+/*图标*/
+#jenkins-head-icon {
+    width: 30px;
+    height: 30px;
+}
+
+#jenkins-name-icon {
+    height: 30px;
+}
+
+/*搜索框*/
+#searchform {
+    height: 30px;
+}
+
+/*搜索框位置*/
+.searchbox {
+    position: absolute;
+    left: 300px;
+    padding: 0 20px;
+}
+
+#search-box.main-search__input {
+    padding: 2px 5px 2px 30px;
+    margin: 0;
+    line-height: 30px;
+    border: none;
+}
+
+#search-box.main-search__input:focus {
+    border: none;
+    outline: none;
+}
+
+/*搜索图标*/
+.main-search__icon-leading {
+    height: 30px;
+    width: 30px;
+    padding: 4px;
+}
+
+/*搜索帮助*/
+.main-search__icon-trailing {
+    display: none;
+}
+
+/*登录信息*/
+.page-header__hyperlinks A {
+    padding: 0 10px;
+}
+
+.page-header__hyperlinks .svg-icon {
+    display: none;
+}
+
+/*去除登录信息背景*/
+.page-header__hyperlinks A:hover, .page-header__hyperlinks A:focus, .page-header__hyperlinks A.mouseIsOverMenuSelector {
+    background: none;
+}
+
+#visible-am-container.visible #visible-am-button {
+    background: none;
+}
+
+/*---------------------------------------------------------*/
+/*面包屑*/
+/*---------------------------------------------------------*/
+#breadcrumbs {
+    height: 30px !important;
+    line-height: 30px !important;
+    min-height: 30px !important;
+}
+
+#breadcrumbs LI {
+    height: 30px !important;
+    line-height: 30px !important;
+    min-height: 30px !important;
+}
+
+#breadcrumbs LI A {
+    height: 30px !important;
+    line-height: 30px !important;
+    min-height: 30px !important;
+}
+
+.breadcrumbs__wrapper {
+    line-height: 30px !important;
+    min-height: 30px !important;
+    background-color: white !important;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 0 20px 0 320px !important;
+    border-top: 1px solid #eeeeee;
+}
+
+/*1px的顶部空白*/
+.top-sticker-inner {
+    border: none;
+}
+
+/*---------------------------------------------------------*/
+/*侧边栏*/
+/*---------------------------------------------------------*/
+#side-panel {
+    background-color: #20222A;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    padding: 30px 0;
+    z-index: 999;
+}
+
+body.two-column #side-panel {
+    width: 300px;
+}
+
+/*菜单栏*/
+#tasks {
+    width: 300px;
+    margin-bottom: 0;
+}
+
+/*菜单*/
+#tasks .task {
+    margin-bottom: 0;
+    max-width: 300px;
+    padding: 0 15px;
+    line-height: 40px;
+    display: block;
+}
+
+#tasks .task:hover {
+    background-color: #009688;
+    cursor: pointer;
+}
+
+#tasks .task * {
+    letter-spacing: 2px !important;
+    color: #ffffff !important;
+}
+
+#tasks .task .task-link {
+    height: 40px;
+    line-height: 40px;
+}
+
+/*任务列表*/
+#side-panel .container-fluid {
+    margin: 20px 15px;
+}
+
+#side-panel .pane-header {
+    padding: 5px !important;
+}
+
+#side-panel td.pane {
+    padding: 5px;
+}
+
+#side-panel td {
+    float: left;
+    color: #ffffff;
+}
+
+/*图标不显示*/
+#side-panel #tasks .task-icon-link {
+    display: none;
+}
+
+/*主体部分*/
+#description {
+    display: none;
+}
+
+body.two-column #main-panel {
+    margin-left: 310px;
+}
+
+#main-panel {
+    position: relative;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 15px;
+}
+
+/*欢迎页面标题*/
+#main-panel > h1 {
+    height: 50px !important;
+    line-height: 20px !important;
+    font-size: 14px !important;
+    letter-spacing: 2px;
+    margin: -15px -15px 10px -15px;
+    padding: 15px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+/*说明文字*/
+#main-panel .call-to-action {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px 10px;
+    background-color: #F2F2F2;
+    border-left: 4px solid #009688;
+}
+
+/*新建任务页面*/
+.col-md-offset-2 {
+    margin: 0;
+    padding: 0;
+}
+
+.col-md-20 {
+    width: 100%;
+}
+
+.container {
+    margin: 0;
+    padding: 0 290px;
+    width: 100%;
+}
+
+.h3 {
+    font-weight: bolder !important;
+    font-size: 19px !important;
+}
+
+.j-item-options .icon-xlg {
+    height: 48px !important;
+    width: 48px !important;
+}
+
+#add-item-panel .icon:before {
+    background: none;
+}
+
+#add-item-panel .icon {
+    border: none;
+    background: none;
+}
+
+/*文件夹*/
+h1 img {
+    height: 20px !important;
+    line-height: 20px !important;
+    width: 20px !important;
+}
+
+/*tab左对齐*/
+.tabBar .tab:first-child {
+    margin-left: 0;
+}
+
+/*系统管理页面*/
+.manage-option .icon {
+    width: 40px;
+    height: 40px;
+}
+
+/*设置边框*/
+.manage-option dl {
+    min-height: 40px;
+}
+
+/*设置名称*/
+.manage-option dl dt {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*不显示设置说明*/
+.manage-option dl dd {
+    display: none;
+}
+
+/*设置分类*/
+#main-panel h2 {
+    border-left: 4px solid #009688;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #f2f2f2;
+    margin: 20px 0;
+}
+
+/*系统设置详情*/
+/*按钮*/
+.yui-button button, input[type="button"], input[type="reset"], input[type="submit"], a.yui-button:link, a.yui-button:visited {
+    border: 1px solid !important;
+    padding: 3px 1rem !important;
+    min-height: 28px !important;
+    margin-left: 0 !important;
+}
+
+/*配置分类标题*/
+.section-header {
+    margin-top: 20px !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+
+table, td, th, form, input, textarea, select {
+    font-size: 12px !important;
+    text-align: left !important;
+}
+
+.manage-page__category:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+/*输入框*/
+.setting-input {
+    padding: 5px 15px;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+/*密码图标*/
+.hidden-password-legend > svg {
+    height: 20px;
+}
+
+/*图标*/
+.icon-xlg {
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 10px;
+}
+
+.icon-lg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.icon-md {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.icon-sm {
+    height: 12px;
+    width: 12px;
+}
+
+/*构建历史*/
+.build-row {
+    background-color: #20222A !important;
+}
+
+.build-row a {
+    color: #ffffff !important;
+}
+
+#buildHistory td {
+    width: 100%;
+}
+
+#buildHistory td:hover {
+    background-color: #20222A !important;
+}
+
+#buildHistory a:hover {
+    background-color: #20222A !important;
+}
+
+.pane-footer {
+    display: none;
+}
+
+.build-row.model-link-active {
+    background: #20222A !important;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.page-headline {
+    max-width: 100% !important;
+}
+
+#projectstatus th {
+    padding: 5px;
+}
+
+.bigtable td {
+    padding: 5px;
+}
+
+/*历史构建*/
+.permalinks-list {
+    padding-left: 20px;
+}
+
+.permalink-item {
+    margin: 5px 15px;
+}
+
+/*底部*/
+footer {
+    display: none;
+}
