@@ -159,6 +159,7 @@ a:focus {
     right: 0;
     padding: 0 20px 0 320px !important;
     border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 }
 
 /*1px的顶部空白*/
