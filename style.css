@@ -535,7 +535,57 @@ a.yui-button.primary {
     margin-left: 0 !important;
 }
 
+.alert-info a {
+    color: #31708f !important;
+}
+
 /*底部*/
 footer {
-    display: none;
+    width: 250px !important;
+    position: fixed !important;
+    right: 10px !important;
+    bottom: 20px !important;
+}
+
+.page-footer__flex-row {
+    min-height: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    float: right !important;
+}
+
+.page-footer {
+    right: 10px !important;
+    left: auto !important;
+    background: none !important;
+    border: none !important;
+}
+
+.container-fluid > span {
+    display: none !important;
+}
+
+.container-fluid .page-footer__timestamp {
+    display: none !important;
+}
+
+.container-fluid .page-footer__footer-id-placeholder {
+    display: none !important;
+}
+
+.page-footer__flex-row > * {
+    padding: 2px 15px !important;
+    margin: 0 2px !important;
+}
+
+.container-fluid .page-footer__links {
+    background-color: #1C2b36 !important;
+}
+
+.container-fluid .page-footer__links a {
+    color: #FFFFFF !important;
+}
+
+.page-footer__links--white {
+    background: none !important;
 }
