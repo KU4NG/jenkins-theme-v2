@@ -365,8 +365,18 @@ h1 img {
 .yui-button button, input[type="button"], input[type="reset"], input[type="submit"], a.yui-button:link, a.yui-button:visited {
     border: 1px solid !important;
     padding: 3px 1rem !important;
-    min-height: 28px !important;
+    min-height: 30px !important;
+    height: 30px !important;
     margin-left: 0 !important;
+}
+
+.yui-button button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+a.yui-button:link:focus,
+a.yui-button:visited:focus {
+    box-shadow: none !important;
 }
 
 /*配置分类标题*/
@@ -388,6 +398,8 @@ table, td, th, form, input, textarea, select {
 /*输入框*/
 .setting-input {
     padding: 5px 15px;
+    height: 30px;
+    line-height: 30px;
 }
 
 input:focus {
@@ -497,6 +509,30 @@ a.yui-button.primary {
 .tabBarFrame {
     position: relative !important;
     top: 0 !important;
+}
+
+.help {
+    border: 1px solid #d1eaff;
+    background-color: #f0f9ff;
+}
+
+/*确定按钮*/
+.yui-button.primary button, input[type="button"].primary, input[type="reset"].primary, input[type="submit"].primary {
+    color: #fff;
+    background-color: #0B6AA2;
+    min-height: 32px !important;
+    height: 32px !important;
+    border-color: #0B6AA2;
+}
+
+/*隐藏密码按钮*/
+.hidden-password input[type='button'] {
+    background-color: #0B6AA2 !important;
+    border: 1px solid !important;
+    padding: 3px 1rem !important;
+    min-height: 32px !important;
+    height: 32px !important;
+    margin-left: 0 !important;
 }
 
 /*底部*/
