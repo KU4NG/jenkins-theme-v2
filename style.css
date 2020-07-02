@@ -488,8 +488,16 @@ a.yui-button.primary {
     color: #fff !important;
 }
 
+/*配置页面导航*/
+.jenkins-config-widgets {
+    position: relative !important;
+    top: 0 !important;
+}
 
-
+.tabBarFrame {
+    position: relative !important;
+    top: 0 !important;
+}
 
 /*底部*/
 footer {
