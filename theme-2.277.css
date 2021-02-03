@@ -1,0 +1,488 @@
+/* 全局样式 */
+* {
+    letter-spacing: 1px;
+    border-radius: 0 !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+
+a {
+    color: #001529 !important;
+    text-decoration: none !important;
+}
+
+a:link {
+    text-decoration: none !important;
+    color: #001529 !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+    color: #001529 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none !important;
+    color: #001529 !important;
+}
+
+a:focus {
+    text-decoration: none !important;
+    color: #001529 !important;
+}
+
+input:focus, textarea:focus {
+    outline: none !important;
+}
+
+/* 下拉菜单边框问题 */
+:focus {
+    outline: none !important;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+  border-radius: 0;
+  background-color: #eee;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+  border-radius: 0;
+  background-color: #1890ff;
+}
+/*定义最上方和最下方的按钮*/
+::-webkit-scrollbar-button{
+  height: 0;
+}
+
+/* header */
+.page-header {
+    background-color: #ffffff !important;
+}
+
+#header .logo {
+    margin-left: 0;
+    background-color: #001529;
+    width: 300px;
+}
+
+.page-header #jenkins-head-icon {
+    display: none;
+}
+
+.page-header #jenkins-name-icon {
+    margin: 0 15px;
+    width: 80%;
+}
+
+.page-header .searchbox {
+    position: absolute;
+    left: 300px;
+    padding: 0 10px;
+}
+
+.page-header #search-box.main-search__input {
+    padding: 2px 10px;
+    margin: 5px 0;
+}
+
+.page-header #search-box.main-search__input {
+    border: none;
+    letter-spacing: 2px;
+    height: 30px;
+}
+
+.page-header .svg-icon {
+    display: none;
+}
+
+.page-header__hyperlinks a:hover, .page-header__hyperlinks a:focus, .page-header__hyperlinks a.mouseIsOverMenuSelector {
+    color: #dc3545 !important;
+    background-color: #ffffff;
+}
+
+.page-header .am-container.visible .am-button {
+    background-color: #ffffff !important;
+}
+
+/* breadcrumbs */
+.breadcrumbs__wrapper {
+    display: flex;
+    position: absolute;
+    left: 300px;
+    width: 100%;
+    padding: 0 5px !important;
+}
+
+#breadcrumbs LI A, #breadcrumbs LI A:link, #breadcrumbs LI A:visited {
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+
+/* side-panel  */
+#side-panel {
+    width: 300px !important;
+    padding: 10px 0 20px 0;
+    border-right: none;
+    background-color: #001529;
+}
+
+#side-panel * {
+    color: #ffffff !important;
+}
+
+#side-panel img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+#side-panel table img {
+    width: 14px !important;
+    height: 14px !important;
+}
+
+.task-link:link, .task-link:visited {
+    letter-spacing: 2px;
+}
+
+.task-link:link:focus, .task-link:visited:focus {
+    box-shadow:none;
+}
+
+.task-link:link:hover, .task-link:visited:hover, .task-link:link:focus, .task-link:visited:focus {
+    background-color: #1890ff;
+}
+
+.task-link, .task-disabled-link {
+    padding: 0.5rem 15px 0.5rem 15px;
+}
+
+.task-link-wrapper {
+    padding:  0;
+}
+
+.task-link--active {
+    background-color: #1890ff;
+}
+
+#side-panel .pane-header {
+    background-color: #dc3545;
+    border: none !important;
+    height: 36px;
+}
+
+#side-panel .pane-frame {
+    border: none !important;
+}
+
+#side-panel tr {
+    border: none !important;
+}
+
+/* footer */
+footer {
+    width: 350px !important;
+    position: fixed !important;
+    right: 25px !important;
+    bottom: 20px !important;
+}
+
+.page-footer__flex-row {
+    min-height: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    float: right !important;
+}
+
+.page-footer {
+    right: 25px !important;
+    left: auto !important;
+    background: none !important;
+    border: none !important;
+}
+
+.container-fluid>span {
+    display: none !important;
+}
+
+.container-fluid .page-footer__timestamp {
+    display: none !important;
+}
+
+.container-fluid .page-footer__footer-id-placeholder {
+    display: none !important;
+}
+
+.page-footer__flex-row>* {
+    padding: 2px 10px !important;
+    margin: 0 2px !important;
+}
+
+.container-fluid .page-footer__links {
+    background-color: #003366 !important;
+}
+
+.container-fluid .jenkins-zh {
+    display: none;
+}
+
+.container-fluid .page-footer__links a {
+    color: #FFFFFF !important;
+}
+
+.page-footer__links--white {
+    background: none !important;
+}
+
+/* main-panel */
+#main-panel {
+    padding: 55px 15px 40px 15px;
+}
+
+#main-panel a {
+    color: #dc3545 !important;
+}
+
+#main-panel a:hover {
+    color: #1890ff !important;
+}
+
+#main-panel table a {
+    color: #001529 !important;
+}
+
+#main-panel .tab a {
+    color: #001529 !important;
+}
+
+#main-panel li a {
+    color: #001529 !important;
+}
+
+#main-panel #description-link {
+    display: none;
+}
+
+/* table */
+.bigtable th {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 6px 10px;
+}
+
+.bigtable td {
+    border: none;
+    padding: 6px 10px;
+}
+
+.bigtable tr {
+    border: none;
+}
+
+.bigtable tbody {
+    border: 1px solid #f0f0f0;
+}
+
+.bigtable tr:last-child td {
+    border: none;
+}
+
+table.stripped-odd tr:nth-child(odd) {
+    background: rgba(240,240,240, 0.4);
+}
+
+.tabBar .tab.active a {
+    border: 1px solid #f0f0f0;
+    background: #f0f0f0;
+}
+
+.tabBar .tab a {
+    border: 1px solid #f0f0f0;
+    background-color: #ffffff;
+}
+
+.yui-button button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.yui-button:link,
+a.yui-button:visited {
+    border: 1px solid #e5e5e5 !important;
+    padding: 2px 1rem !important;
+    min-height: 26px !important;
+    height: 26px !important;
+    margin-left: 0 !important;
+}
+
+.yui-button button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+a.yui-button:link:focus,
+a.yui-button:visited:focus {
+    box-shadow: none !important;
+}
+
+.yui-button.primary button, input[type="button"].primary, input[type="reset"].primary, input[type="submit"].primary {
+    color: #fff;
+    background-color: #003366;
+    border-color: #003366;
+}
+
+#main-panel a.yui-button.primary {
+    color: #fff !important;
+    background-color: #003366;
+    border-color: #003366;
+}
+
+#people  tr:last-child td {
+    width: 10px;
+}
+
+#people  img {
+    width: 20px !important;
+    height: 20px !important;  
+    margin: 0 5px !important;
+}
+
+h1 , .h1 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin: 20px 0;
+    display: none;
+}
+
+h1  img, .h1 img {
+    width: 34px !important;
+    height: 34px !important;
+}
+
+h2 , .h2 {
+    font-size: 17px !important;
+    font-weight: bold !important;
+    border-left: 3px solid #dc3545;
+    border-right:  3px solid #dc3545;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+}
+
+h3 , .h3 {
+    font-size: 17px !important;
+    font-weight: bold !important;
+}
+
+#add-item-panel .icon:before {
+    background: #fff;
+}
+
+#main-panel dl a {
+    color: #001529 !important;
+}
+
+#main-panel dt {
+    color: #001529 !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+}
+
+.section-header {
+    margin-top: 20px !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    padding: 8px !important;
+    border-left: 3px solid #1890ff;
+    background-color: #f0f0f0;
+    border-bottom: none !important;
+}
+
+#plugins td {
+    padding: 15px 10px;
+}
+
+.jenkins-config-widgets {
+    position: relative !important;
+    top: 0 !important;
+}
+
+#buildHistory .pane-footer {
+    display: none;
+}
+
+#buildHistory input {
+    border: 1px solid #f0f0f0;
+    padding: 5px 10px;
+    color: #001529 !important;
+}
+
+table.stripped tr:nth-of-type(even) {
+    background: #001529 !important;
+}
+
+#side-panel .pane-content tbody tr:not(:first-child) {
+    border: none !important;
+}
+
+table.stripped tr:hover, table.stripped-even tr:hover, table.stripped-odd tr:hover {
+    background: none !important;
+}
+
+table .build-row:last-child  {
+    display: none;
+}
+
+.subtasks .task:last-of-type {
+    border: none !important;
+}
+
+table.bigtable.sortable a.sortheader, table.bigtable.sortable span.sortarrow {
+    color: #001529 !important;
+}
+
+.setting-input {
+    padding: 5px 10px;
+}
+
+ #main-panel table img {
+    width: 20px !important;
+    height:  20px !important;
+}
+
+#main-panel .manage-option  dd {
+    display: none;
+}
+
+#main-panel .manage-option  dt {
+    height: 48px;
+    line-height: 48px;
+}
+
+.am-container div.am-list {
+    padding: 15px !important;
+}
+
+.am-container div.am-list p a {
+    background-color: #009688;
+    padding: 5px !important;
+    width: 100%;
+    display: block !important;
+    color: #ffffff !important;
+}
+
+.am-container div.am-list p a:hover {
+    background-color: #009688;
+}
